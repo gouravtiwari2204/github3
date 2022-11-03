@@ -1,10 +1,10 @@
-let n=13;
+let number=13;
 let count =0
 for(let i =1 ; i<=n ; i++){
-   if(n%i ==2){
+   if(number%i ==0){
    count++
   }
-}if(count == 1){
+}if(count == 2){
   console.log("Prime")
  }
 else{
